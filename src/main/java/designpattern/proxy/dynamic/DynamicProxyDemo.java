@@ -5,7 +5,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * jdk动态代理  实现InvocationHandler接口
+ * jdk动态代理
+ *      目标类要实现业务接口
+ *      代理类实现InvocationHandler接口
  *
  * @author will
  * @date 2019/12/13

@@ -7,6 +7,10 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
+ * cglib动态代理
+ *
+ * 目标类无需实现接口, 但目标类不能为final类 (cglib会继承目标对象)
+ *
  * @author will
  * @date 2019/12/13
  */
